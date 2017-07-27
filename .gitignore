@@ -1,0 +1,4 @@
+*.dat
+*.png
+/test-cgraph
+/test-igraph
