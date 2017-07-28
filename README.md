@@ -13,3 +13,7 @@ Pending:
 Some other links:
 * http://snap.stanford.edu/snap/index.html
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4829061/
+
+Preliminary results:
+[time](http://www.telemidia.puc-rio.br/~gflima/misc/GraphProver-benchmarks/time.png)
+[mem](http://www.telemidia.puc-rio.br/~gflima/misc/GraphProver-benchmarks/mem.png)
