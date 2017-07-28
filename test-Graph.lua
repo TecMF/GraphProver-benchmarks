@@ -42,6 +42,9 @@ do
    X = tonumber (arg[3])
    assert (X and X >= 0. and X <= 1., 'bad X')
    math.randomseed (os.time ())
+   if NUM_V > 32000 or NUM_E > 32000 then -- taking too long
+      os.exit (0)
+   end
 end
 
 local function dump (G)
