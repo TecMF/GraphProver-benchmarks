@@ -42,6 +42,7 @@ $(rep_time):
 	$(MAKE) measure-time TEST=$(@:.time.dat=) N=128000
 	$(MAKE) measure-time TEST=$(@:.time.dat=) N=512000
 	$(MAKE) measure-time TEST=$(@:.time.dat=) N=1024000
+	$(MAKE) measure-time TEST=$(@:.time.dat=) N=10240000
 $(rep_mem):
 	$(MAKE) measure-mem  TEST=$(@:.mem.dat=)  N=1000
 	$(MAKE) measure-mem  TEST=$(@:.mem.dat=)  N=2000
@@ -53,6 +54,7 @@ $(rep_mem):
 	$(MAKE) measure-mem  TEST=$(@:.mem.dat=)  N=128000
 	$(MAKE) measure-mem  TEST=$(@:.mem.dat=)  N=512000
 	$(MAKE) measure-mem  TEST=$(@:.mem.dat=)  N=1024000
+	$(MAKE) measure-mem  TEST=$(@:.mem.dat=)  N=10240000
 
 IGRAPH=$(shell pkg-config --cflags --libs igraph)
 test-igraph: test-igraph.c
