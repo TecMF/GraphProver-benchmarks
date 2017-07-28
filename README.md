@@ -15,5 +15,5 @@ Some other links:
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4829061/
 
 Preliminary results:
-[time](http://www.telemidia.puc-rio.br/~gflima/misc/GraphProver-benchmarks/time.png)
-[mem](http://www.telemidia.puc-rio.br/~gflima/misc/GraphProver-benchmarks/mem.png)
+![time](http://www.telemidia.puc-rio.br/~gflima/misc/GraphProver-benchmarks/time.png)
+![mem](http://www.telemidia.puc-rio.br/~gflima/misc/GraphProver-benchmarks/mem.png)
